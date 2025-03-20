@@ -1,5 +1,5 @@
 
-    import Styles from '../styles/globals.module.css'
+    import Styles from '../styles/navbar.module.css'
 
             function Navbar() {
 

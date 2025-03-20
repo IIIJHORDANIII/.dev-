@@ -1,0 +1,32 @@
+.navbar{
+    width: 53vw;
+    height: 12vw;
+
+    position: absolute;
+    top: 0;
+
+
+
+
+}
+.navbarContent{
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+}
+
+.navbarButton{
+    width: 80px;
+    height: 4vh;
+
+    border: none;
+    border-radius: 15px;
+
+    background-color: rgb(255, 255, 255);
+}
+.navbarButton:hover{
+   
+
+    background-color: rgb(255, 255, 255);
+}
