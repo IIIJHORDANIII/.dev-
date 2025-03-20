@@ -1,11 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+.navbar{
+    width: 65vw;
+    height: 10vw;
+
+    position: absolute;
+    top: 0;
+
+
+
+
+}
+.navbarContent{
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+.navbarButton{
+    width: 5vw;
+    height: 4vh;
+
+    border: none;
+    border-radius: 15px;
+
+    background-color: rgb(239, 239, 239);
+}
+.navbarButton:hover{
+   
+
+    background-color: rgb(210, 210, 210);
+}
+
+
 
 .container{
+
+    margin: 0;
+    padding: 0;
+
     display:flex;
     flex-direction: column;
+    
     align-items: center;
     justify-content: center;
+
+    width: 100vw;
+    height: 100vh;
 }
 .texto{
     text-align: center;
@@ -16,15 +58,44 @@
 
 .cont{
     text-align: center;
+    align-items: center;
 }
 
 .button{
     margin:10px;
-    width:180px;
-    height: 30px;
+    width:15vw;
+    height: 3vh;
     border-radius:10px;
 
-    color:white;
-    background-color: black;
+    background-color: rgb(205, 205, 205);
+    color: black;
+    font-weight: bold;
+}
+.button2{
+    margin:10px;
+    width:15vw;
+    height: 5vh;
+    border-radius:10px;
+    box-shadow: 1px 2px 2px rgba(69, 151, 152, 0.827);
+    border: none;
+
+    background-color: rgba(34, 208, 205, 0.678);
+    color: white;
+    font-weight: bold;
+}
+.button2:hover{
+    background-color: rgba(17, 182, 180, 0.678);
+    box-shadow: inset 2px 2px rgba(69, 151, 152, 0.827);
 }
 
+
+.a{
+    text-decoration: none;
+    color: white;
+    font-size: small;
+}
+
+.h3{
+    margin: 0;
+    padding: 0;
+}

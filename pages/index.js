@@ -1,24 +1,27 @@
 
-import { useState } from "react";
-
 import Styles from'../styles/globals.module.css'
+
 
 
 
 function Home() {
 
-    const [count, setCount] = useState(0);
+    
 
     return <div className={Styles.container}>
+            
                 <div className={Styles.cont}>
-                    <h2 className={Styles.texto}>Não é meu primeiro contato com programação, porém nunca consegui seguir mais que 3 aulas kakakak,<br/> porém mas com uma didática dessas é realmente impossivel não dar seguimento a esse curso!!
-                    </h2>
-                    <h3 className={Styles.texto}> Sofri pra fazer um contador de cliques então CLICA AI SAFADO. </h3>
-                    <div>
-                    <button id="meuBotao" className={Styles.button} onClick={() => setCount(count + 1)}> Aqui ó, CLICA! ------ {count}  </button>
-                    </div>
-                    </div>
-             </div>
+                    <h1 className={Styles.texto}>Sejam Bem Vindos!!</h1>
+                    <p className={Styles.texto}>
+                        Me chamo JHORDAN, e programação se tornou um hobby em que estou me dedicando nesse ano de 2025.<br/>
+                        Esse será um espaço pessoal para documentar a minha trajetória de aprendizado no curso .DEV de nosso grandioso<br/>
+                        Felipe Dechamps, mais conhecido como MICHEL TELÓ da programação. Brincadeiras a parte é apenas uma forma de me dedicar.
+                    </p>
+                    <a className={Styles.a} href="/projeto1/projeto1">
+                    <button  className={Styles.button2}><h3 className={Styles.h3}>PRIMEIRO PROJETO<br/>Frase para Encantar</h3></button></a>
+                </div>
+       
+            </div>
 }
 
 export default Home;
