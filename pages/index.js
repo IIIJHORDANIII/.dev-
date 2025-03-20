@@ -1,4 +1,5 @@
 
+import Perfil from '../components/perfil';
 import Styles from'../styles/globals.module.css'
 
 
@@ -9,7 +10,7 @@ function Home() {
     
 
     return <div className={Styles.container}>
-            
+                <Perfil/>
                 <div className={Styles.cont}>
                     <h1 className={Styles.texto}>Sejam Bem Vindos!!</h1>
                     <p className={Styles.texto}>

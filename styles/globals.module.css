@@ -1,8 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+.perfil{
+    width: 90px;
+    height: 90px;
+
+    background-image: url('../image/patolino.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-radius: 60%;
+    
+    position: absolute;
+
+    box-shadow: 1px 2px 9px rgba(215, 215, 215, 0.678);
+
+    top: 37px;
+}
+
+
 .navbar{
-    width: 65vw;
-    height: 10vw;
+    width: 70vw;
+    height: 12vw;
 
     position: absolute;
     top: 0;

@@ -3,6 +3,7 @@ import { useState } from "react";
 
 import Styles from '../../styles/globals.module.css'
 import Navbar from "../../components/navbar";
+import Perfil from "../../components/perfil";
 
 
 
@@ -13,6 +14,7 @@ function Projeto1() {
     return <div className={Styles.container}>
 
             <Navbar/>
+            <Perfil/>
                 <div className={Styles.cont}>
                     <h3 className={Styles.texto}>Não é meu primeiro contato com programação, porém nunca consegui seguir mais que 3 aulas kakakak,<br/> mas com uma didática dessas é realmente impossivel não dar seguimento a esse curso!!
                     </h3>
