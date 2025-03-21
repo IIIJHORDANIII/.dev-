@@ -1,18 +1,16 @@
-.perfil{
-    width: 90px;
-    height: 90px;
+.perfil {
+  width: 90px;
+  height: 90px;
 
-    background-image: url('../image/patolino.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("../image/patolino.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 
-    border-radius: 60%;
-    
-    position: absolute;
+  border-radius: 60%;
 
-    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.678);
+  position: absolute;
 
-    top: 60px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.678);
+
+  top: 60px;
 }
-
-

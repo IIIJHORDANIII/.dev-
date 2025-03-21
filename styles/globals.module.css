@@ -1,85 +1,76 @@
+.container {
+  background: rgb(19, 26, 25);
 
+  margin: 0;
+  padding: 0;
 
+  display: flex;
+  flex-direction: column;
 
+  align-items: center;
+  justify-content: center;
 
-
-.container{
-    background: rgb(19, 26, 25);
-    
-    margin: 0;
-    padding: 0;
-
-    display:flex;
-    flex-direction: column;
-    
-    align-items: center;
-    justify-content: center;
-
-    width: 100vw;
-    height: 100vh;
+  width: 100vw;
+  height: 100vh;
 }
-.texto{
-    text-align: center;
+.texto {
+  text-align: center;
 
-    color: rgb(78, 78, 78);
-    
+  color: rgb(78, 78, 78);
 }
 
-.texto2{
-    text-align: center;
+.texto2 {
+  text-align: center;
 
-    color: rgb(78, 78, 78);
+  color: rgb(78, 78, 78);
 
-    margin: 20px;
-    
+  margin: 20px;
 }
 
-.cont{
-    text-align: center;
-    align-items: center;
-    
-    background-color: rgb(255, 255, 255);
-    border-radius: 30px;
+.cont {
+  text-align: center;
+  align-items: center;
 
-    box-shadow:  0px 2px 9px rgba(12, 97, 108, 0.188);
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
 
-    padding: 10px;
-    margin-left: 100px;
-    margin-right: 100px;
+  box-shadow: 0px 2px 9px rgba(12, 97, 108, 0.188);
+
+  padding: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
+.button2 {
+  margin: 10px;
+  min-width: 200px;
 
-.button2{
-    margin:10px;
-    min-width:200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 
-    padding-top: 10px;
-    padding-bottom: 10px;
-    
-    margin-left: 100px;
-    margin-right: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
 
-    border-radius:10px;
-    box-shadow: 1px 2px 2px rgba(69, 151, 152, 0.827);
-    border: none;
+  border-radius: 10px;
+  box-shadow: 1px 2px 2px rgba(69, 151, 152, 0.827);
+  border: none;
 
-    background-color: rgba(34, 208, 205, 0.678);
-    color: white;
-    font-weight: bold;
+  background-color: rgba(34, 208, 205, 0.678);
+  color: white;
+  font-weight: bold;
 }
-.button2:hover{
-    background-color: rgba(17, 182, 180, 0.678);
-    box-shadow: inset 2px 2px rgba(69, 151, 152, 0.827);
-}
-
-
-.a{
-    text-decoration: none;
-    color: white;
-    font-size: small;
+.button2:hover {
+  background-color: rgba(17, 182, 180, 0.678);
+  box-shadow: inset 2px 2px rgba(69, 151, 152, 0.827);
 }
 
-.h3{
-    margin: 0;
-    padding: 0;
+.a {
+  text-decoration: none;
+  color: white;
+  font-size: small;
+}
+
+.h3 {
+  margin: 0;
+  padding: 0;
 }

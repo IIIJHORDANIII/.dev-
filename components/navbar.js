@@ -1,15 +1,17 @@
+import Styles from "../styles/navbar.module.css";
 
-    import Styles from '../styles/navbar.module.css'
+function Navbar() {
+  return (
+    <navbar className={Styles.navbar}>
+      <div className={Styles.navbarContent}>
+        <a href="/">
+          <button className={Styles.navbarButton}>
+            <h3 className={Styles.p}>Voltar</h3>
+          </button>
+        </a>
+      </div>
+    </navbar>
+  );
+}
 
-            function Navbar() {
-
-                
-            
-                return <navbar className={Styles.navbar}>
-                    <div className={Styles.navbarContent}>
-                        <a href='/'><button className={Styles.navbarButton}><h3 className={Styles.p}>Voltar</h3></button></a>
-                    </div>
-                </navbar>
-                }
-            
-            export default Navbar;
+export default Navbar;
