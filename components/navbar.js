@@ -4,10 +4,8 @@ function Navbar() {
   return (
     <navbar className={Styles.navbar}>
       <div className={Styles.navbarContent}>
-        <a href="/">
-          <button className={Styles.navbarButton}>
-            <h3 className={Styles.p}>Voltar</h3>
-          </button>
+        <a className={Styles.a} href="/">
+          <p className={Styles.logo}>JHORELLO</p>
         </a>
       </div>
     </navbar>

@@ -2,7 +2,6 @@ import { useState } from "react";
 
 import Styles from "../../styles/projeto1.module.css";
 import Navbar from "../../components/navbar";
-import Perfil from "../../components/perfil";
 
 function Projeto1() {
   const [count, setCount] = useState(0);
@@ -18,8 +17,7 @@ function Projeto1() {
           seguimento a esse curso!!
         </h3>
         <p className={Styles.texto2}>
-          {" "}
-          Sofri pra fazer um contador de cliques então CLICA AI SAFADO.{" "}
+          Sofri pra fazer um contador de cliques então CLICA AI SAFADO.
         </p>
         <div>
           <h2 className={Styles.texto}>{count}</h2>
