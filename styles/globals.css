@@ -10,4 +10,8 @@
 
 body {
   background-color: rgb(64, 64, 64);
+  background-image: url(../image/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }

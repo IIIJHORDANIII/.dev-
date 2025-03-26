@@ -5,10 +5,6 @@
 }
 
 .container {
-  background-image: url(../image/background.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   margin: 0;
   padding: 0;
 
@@ -71,7 +67,7 @@
   background-color: rgb(49, 49, 49, 47%);
   border-radius: 30px;
 
-  box-shadow: 0px 2px 9px rgba(12, 97, 108, 0.188);
+  box-shadow: 0px 2px 9px rgba(18, 22, 23, 0.188);
 
   padding: 10px;
   margin-left: 100px;
